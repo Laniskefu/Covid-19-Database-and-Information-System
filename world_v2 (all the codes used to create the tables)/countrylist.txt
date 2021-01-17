@@ -1,0 +1,4 @@
+create table countrylist(
+countryShortCode varchar(20) primary key, 
+countryFullName varchar(50)
+);

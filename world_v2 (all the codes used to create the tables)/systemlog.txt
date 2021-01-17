@@ -1,0 +1,6 @@
+create table systemlog(
+datetime DATETIME, 
+account VARCHAR(50), 
+command VARCHAR(500), 
+primary key(datetime,account)
+);

@@ -1,0 +1,14 @@
+create table economy(
+code varchar(20) primary key references countrylist(countryShortCode),
+year varchar(10),
+GDP_billion FLOAT,
+GDP_YOY FLOAT,
+GDP_QOQ FLOAT,
+interestRate FLOAT,
+inflationRate FLOAT,
+unemploymentRate FLOAT,
+budgetGrowth FLOAT,
+debt_over_GDP FLOAT,
+CurrentAccount FLOAT,
+population_million FLOAT
+);

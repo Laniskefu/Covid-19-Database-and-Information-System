@@ -1,0 +1,11 @@
+create table supply(
+code varchar(20) primary key references countrylist(countryShortCode), 
+ICU_beds int,
+num_of_doctors int,
+ventilator_inventory int,
+ventilator_capacity int,
+protective_clothing_inventory int,
+protective_clothing_capacity int,
+facemask_inventory int,
+facemask_capacity int
+);

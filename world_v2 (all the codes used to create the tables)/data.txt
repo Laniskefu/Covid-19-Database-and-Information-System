@@ -1,0 +1,15 @@
+create table data(
+code varchar(20) references countryList(countryShortCode), 
+date varchar(10), 
+confirmedCount int, 
+confirmedIncr int, 
+curedCount int, 
+curedIncr int, 
+deadCount int, 
+deadIncr int, 
+existingCount int, 
+existingIncr int, 
+suspectedCount int, 
+suspectedIncr int, 
+primary key(code,date)
+);
