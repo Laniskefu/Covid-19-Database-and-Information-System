@@ -1,7 +1,7 @@
-The entrance of the program is main.py
+### The entrance of the program is main.py
 
-There are some python modules needed: 
-pymysql
-matplotlib
-numpy
-easygui
+### Python modules needed: 
+- easygui
+- matplotlib
+- numpy
+- pymysql
